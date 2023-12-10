@@ -2,12 +2,15 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import logo from './imagenes/LOGO.png'
 
+import { useAuth0 } from '@auth0/auth0-react'
+
 import './Navbar.css'
 
 const Navbar = () => {
 
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
+    const { loginWithRedirect } = useAuth0();
 
     const closeMenu = () => setClick(false)
 
@@ -35,11 +38,14 @@ const Navbar = () => {
                     <li className='nav-item'>
                         <a href='#demo' onClick={closeMenu}>CONTACTANOS</a>
                     </li>
+                    <button className='button' onClick={() => loginWithRedirect()}>INICIO</button>
                 </ul>
-                <button className='button' href='/'>Iniciar Sesion </button>
+
+              
             </nav>
         </div>
     )
 }
+
 
 export default Navbar
