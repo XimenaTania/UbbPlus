@@ -21,7 +21,7 @@ const Footer = () => {
                 </ul>
                 <div className='bottom'>
                     <span className='line'></span>
-                    <p>2023 UBB, Union Bautista Boliviana</p>
+                    <p>2024 UBB, Union Bautista Boliviana</p>
                 </div>
             </div>
         </div>

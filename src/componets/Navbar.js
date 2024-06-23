@@ -33,12 +33,15 @@ const Navbar = () => {
                         <a href='#about' onClick={closeMenu}>QUIENES SOMOS</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#testimonials' onClick={closeMenu}>CONTENIDO</a>
+                        <a href='#testimonials' onClick={closeMenu}>NUESTRO OBJETIVO</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#about2' onClick={closeMenu}>CONTENIDO</a>
                     </li>
                     <li className='nav-item'>
                         <a href='#demo' onClick={closeMenu}>CONTACTANOS</a>
                     </li>
-                    <button className='button' onClick={() => loginWithRedirect()}>INICIO</button>
+                    {/* <button className='button' onClick={() => loginWithRedirect()}>INICIO</button> */}
                 </ul>
 
               

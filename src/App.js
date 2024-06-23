@@ -9,6 +9,7 @@ import Testimonials from './componets/Testimonials';
 import Demo from './componets/Demo';
 import Footer from './componets/Footer';
 import MapView from './componets/MapView';
+import About2 from './componets/About2';
 
 
 
@@ -18,12 +19,15 @@ function App() {
     <div>
       <Navbar/>
       <Hero/>
-      <About/>
       <Testimonials/>
+      <About/>
+      <About2/>
       <Demo/>
       <Footer/>
       <Profile/>     
       <MapView/>
+      
+
     
     </div>
   );

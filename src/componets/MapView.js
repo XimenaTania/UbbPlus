@@ -1,13 +1,7 @@
 import React from "react";
 
-
-
-
-
-
- 
 const MapView = () =>{
-    return <div>hola</div>
+    return 
 
 }
 

@@ -1,22 +1,24 @@
-.about {
+.about2 {
+   
     background-color: #f8f8f8;
     margin: auto;
     padding: 8rem 1rem 0 1rem;
     width: 100%;
 }
 
-.about .containerPas  {
+.about2 .containerPas  {
+
     width: 1240px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.about h2 {
+.about2 h2 {
     font-size: 3rem;
 }
 
-.about .col-2 {
+.about2 .col-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,39 +26,39 @@
     padding: 3rem;
 }
 
-.about .col-2 p:first-of-type {
+.about2 .col-2 p:first-of-type {
     margin: 2rem 0;
 }
 
-.about .col-2 p:nth-child(4) {
+.about2 .col-2 p:nth-child(4) {
     font-size: 1.8rem;
     font-style: italic;
     font-weight: 600;
 }
 
-.about button {
+.about2 button {
     margin-top: 1rem;
 }
 
 @media screen and (max-width:940px) {
-    .about .container {
+    .about2 .container {
         grid-template-columns: 1fr;
     }
 
-    .about .container {
+    .about2 .container {
         width: 100%;
     }
 
-    .about .container img {
+    .about2 .container img {
         padding: 0rem;
         width: 90vw;
     }
 
-    .about .container .col-2 {
+    .about2 .container .col-2 {
         padding: 0;
     }
 
-    .about button {
+    .about2 button {
         margin-bottom: 1rem;
     }
 }
